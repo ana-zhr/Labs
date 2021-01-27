@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head lang="uk">
+    <meta charset="UTF-8" />
+    <title>My Page</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div class="bl-background">
+      <div class="bl-list">
+        <div class="adding">
+          <button class="btn" type="button" data-tooltip="додати товар">Додати</button>
+          <div class="addln">
+            <input type="text" class="text" placeholder="Назва товару" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="product">Помідори</div>
+          <div class="count">
+            <button class="minus" type="button" data-tooltip="зменшити">-</button>
+            <div class="number">1</div>
+            <button class="plus" type="button" data-tooltip="збільшити">+</button>
+          </div>
+          <div class="last">
+            <button class="buy" type="button" data-tooltip="купити товар">Куплене</button>
+            <button class="cross" type="button" data-tooltip="видалити товар">x</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="product">Печиво</div>
+          <div class="count">
+            <button class="minus" type="button" data-tooltip="зменшити">-</button>
+            <div class="number">1</div>
+            <button class="plus" type="button" data-tooltip="збільшити">+</button>
+          </div>
+          <div class="last">
+            <button class="buy" type="button" data-tooltip="купити товар">Куплене</button>
+            <button class="cross" type="button" data-tooltip="видалити товар">x</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="product">Сир</div>
+          <div class="count">
+            <button class="minus" type="button" data-tooltip="зменшити">-</button>
+            <div class="number">1</div>
+            <button class="plus" type="button" data-tooltip="збільшити">+</button>
+          </div>
+          <div class="last">
+            <button class="buy" type="button" data-tooltip="купити товар">Куплене</button>
+            <button class="cross" type="button" data-tooltip="видалити товар">x</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bl-bought">
+        <div class="container">
+          <div class="bl-title">Залишилося</div>
+        </div>
+        <div class="container">
+          <div class="products">
+            <div class="meal">
+              Помідори
+              <div class="num">1</div>
+            </div>
+            <div class="meal">
+              Печиво
+              <div class="num">1</div>
+            </div>
+            <div class="meal">
+              Сир
+              <div class="num">1</div>
+            </div>
+          </div>
+        </div>
+        <div class="bl-title1">Куплене</div>
+      </div>
+    </div>
+    <div class="badge">
+      <p id="visible">Buy List</p>
+      <p>Created by: Anastasiia</p>
+    </div>
+  </body>
+</html>
