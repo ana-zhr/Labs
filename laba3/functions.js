@@ -97,7 +97,7 @@ $(document).ready(function () {
                 $('#' + item.name + i).css({ 'display': 'none' });
                 $("#" + i + '.plus').css({ 'display': 'none' });
                 $("#" + i + '.minus').css({ 'display': 'none' });
-                $('#'+i+'.Notbuy').css({'display':'inline-block'});
+                $('#'+ i +'.Notbuy').css({'display':'inline-block'});
                 $('#boughtBut' + i ).css({ 'display': 'none' });
                 $('#' + i + '.cross').css({ 'display': 'none' })
             }
