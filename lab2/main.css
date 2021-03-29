@@ -1,5 +1,5 @@
 body {
-  background-color: #cdcbcb;
+  background-color: #ffb3b3;
   min-width: 500px;
   max-width: 1200px;
   font-family: Arial, Helvetica, sans-serif;
@@ -29,7 +29,7 @@ input {
   box-sizing: border-box;
 }
 .bl-background {
-  background-color: #cdcbcb;
+  background-color: #ffb3b3;
   padding-top: 100px;
   padding-right: 10px;
   padding-left: 20px;

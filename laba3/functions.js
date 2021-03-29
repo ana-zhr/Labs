@@ -80,7 +80,7 @@ $(document).ready(function () {
                 if (BuyList.list[this.id].count > 1){
                 BuyList.list[this.id].count -= 1;
                 showlist();
-                }
+                } 
                 
             });
 
