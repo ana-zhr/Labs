@@ -1,0 +1,25 @@
+<% include common/header.ejs %>
+
+<div class="container">
+
+    <% include common/cart.ejs %>
+
+    <div class="row" id="pizza_container">
+        <div id="container main-menu">
+            <p class="m_text">Усі піци<span class="amount" id="countFilter">3</span></p>
+            <div id="all_types">
+                <div class="btns">
+                    <a class="btn" id="all">Усі</a>
+                    <a class="btn" id="meat">М’ясна</a>
+                    <a class="btn" id="mushroom">З грибами</a>
+                    <a class="btn" id="pineapples">З ананасами</a>
+                    <a class="btn" id="seafood">З морепродуктами</a>
+                    <a class="btn" id="vegetarian">Веганська</a>
+                </div>
+            </div>
+        </div>
+        <div id="pizza_list"></div>
+    </div>
+</div>
+
+<% include common/footer.ejs %>

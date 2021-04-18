@@ -1,0 +1,120 @@
+#basket {
+  min-width: 250px;
+  background: #f5f5f5;
+  position: fixed;
+  width: 25%;
+  height: 100%;
+  z-index: 6;
+  top: 0;
+  right: 0;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.6);
+  padding: 40px 20px 20px;
+}
+
+#cart {
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.product {
+  padding: 10px;
+  border-bottom: #dddddd solid 2px;
+
+  .name {
+    color: #EA862E;
+    font-size: 20px;
+  }
+
+  .buy {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .cross {
+    color: #EA862E;
+    margin-left: 15px;
+  }
+
+  .btn {
+    border-radius: 100%;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+#text {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#clear {
+  right: 5px;
+  color: #999999;
+  font-size: 12px;
+  float: right;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+
+.end {
+  position: absolute;
+  background: white;
+  font-weight: bold;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  height: 120px;
+  width: 90%;
+  z-index: 1;
+
+
+  #total-cost {
+    font-size: 18px;
+    float: right;
+  }
+
+  #total-cost-name {
+    float: left;
+    font-size: 18px;
+  }
+
+  .btn {
+    width: 100%;
+    background: #EA862E;
+    font-weight: bold;
+    color: aliceblue;
+  }
+}
+
+@media (max-width: 1200px) {
+  .end {
+    #total-cost {
+      font-size: 14px;
+    }
+
+    #total-cost-name {
+      font-size: 14px;
+    }
+  }
+
+  #text {
+    font-size: 19px;
+  }
+
+  #clear {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  #text {
+    font-size: 15px;
+  }
+
+  #clear {
+    font-size: 10px;
+  }
+}

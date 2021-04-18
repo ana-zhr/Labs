@@ -1,0 +1,96 @@
+
+#container_order {
+  margin-top: 100px;
+  height: 100%;
+  display: block;
+  margin-left: 20%;
+  margin-right: 45%;
+  width: 35%;
+}
+
+@media (max-width: 1200px) {
+  #container_order  {
+    margin-left: 10%;
+    margin-right: 35%;
+    width: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  #container_order{
+    margin-right: 25%;
+    width: 75%;
+  }
+}
+
+.font_order {
+  color: @mainColorText;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inputText{
+    color: black;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+}
+
+#next{
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #EA862E;
+  font-weight: bold;
+  color: aliceblue;
+  float: right;
+}
+
+#info{
+  width: 100%;
+  height: 180px;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-left: @mainColorText solid 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.alert{
+  font-size: 14px;
+  color: red;
+  width: 100%;
+}
+
+.alert_input{
+  border: 1px solid red;
+}
+
+#googleMap{
+  width: 100%;
+  height: 500px;
+}
+
+.popup {
+  position: fixed;
+  left: 25%;
+  top: 100px;
+  z-index: 15;
+  background-color: #efefef;
+  width:25%;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.modal-wrapper {
+  position:fixed;
+  width:100%;
+  height:100%;
+  justify-content:center;
+  align-items:center;
+  background:rgba(0,0,0,.7);
+  z-index:12;
+}

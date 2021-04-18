@@ -1,0 +1,63 @@
+<% include common/header.ejs %>
+    <div class="col-xs-12 col-sm-9 col-md-6" id="container_order">
+        <div id="basket">
+            <span id="text">Замовлення</span><span class="amount" id="allQuantity">0</span>
+            <a href="#" class="btn" id="clear">Очистити замовлення</a>
+            <div id="cart" class="order_btn">
+            </div>
+            <div class="end">
+                <p id="total-cost-name">Сума замовлення</p>
+                <p id="total-cost"> 0 грн</p>
+                <a href="/" class="btn" id="createOrder">Редагувати</a>
+            </div>
+        </div>
+        <font class="row font_order" style="font-size: 30px; font-weight: bold;">
+            1. Контактні дані
+        </font>
+        <div class="row">
+            <font class="font_order">Ім'я та прізвище</font>
+            <input id="namePlaceholder" type="text" placeholder="Ім'я Прізвище" class="inputText">
+            <br>
+            <font class="alert"></font>
+        </div>
+        <br>
+        <div class="row">
+            <font class="font_order">Телефон</font>
+            <input id="telPlaceholder" type="text" placeholder="+380500552733" class="inputText">
+            <br>
+            <font class="alert"></font>
+        </div>
+        <br>
+        <div class="row">
+            <font class="font_order">Адреса</font>
+            <input type="text" id="addressPlaceholder" placeholder="Київ, вул. Спаська, 2" class="inputText">
+            <br>
+            <font class="alert"></font>
+        </div>
+        <div id="info">
+            <h3>Інформація про замовлення</h3>
+            <font style="font-weight: bold">Приблизний час доставки: </font>
+            <p id="orderTime">невідомо</p>
+            <font style="font-weight: bold">Адреса доставки: </font>
+            <p id="orderPlace">невідомо</p>
+        </div>
+        <div id="googleMap"></div>
+        <a href="#" class="btn" id="next">Далі</a>
+    </div>
+
+<!-- місце для віджету -->
+<!--<div class="popup" id="popupId">-->
+    <div id="liqpay"></div>
+<!--</div>-->
+<!--
+<div class="modal-wrapper">
+</div>-->
+<!-- піключаємо скрипт -->
+<script src="//static.liqpay.ua/libjs/checkout.js">
+</script>
+
+<script type="text/javascript"
+        src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCoyFwypCd3RkVCidEi2fFKxG8lSwZp3rE">
+</script>
+
+<% include common/footer.ejs %>
